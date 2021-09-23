@@ -15,6 +15,27 @@
 		141E2F962695385F001B1CC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 141E2F942695385F001B1CC0 /* LaunchScreen.storyboard */; };
 		141E2FA126953860001B1CC0 /* collegeInfoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141E2FA026953860001B1CC0 /* collegeInfoTests.swift */; };
 		141E2FAC26953860001B1CC0 /* collegeInfoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141E2FAB26953860001B1CC0 /* collegeInfoUITests.swift */; };
+		141E2FC0269544A2001B1CC0 /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141E2FBF269544A2001B1CC0 /* RowView.swift */; };
+		141E2FC426954D42001B1CC0 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141E2FC326954D41001B1CC0 /* DataModel.swift */; };
+		141E2FC626954D8D001B1CC0 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141E2FC526954D8D001B1CC0 /* Item.swift */; };
+		141E2FC926955061001B1CC0 /* SecondScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141E2FC826955061001B1CC0 /* SecondScreen.swift */; };
+		141E2FCB269602FB001B1CC0 /* ImageOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141E2FCA269602FB001B1CC0 /* ImageOverlay.swift */; };
+		141E2FCD26976E0F001B1CC0 /* CoolBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141E2FCC26976E0F001B1CC0 /* CoolBox.swift */; };
+		141E2FD0269896F1001B1CC0 /* bulletPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141E2FCF269896F1001B1CC0 /* bulletPoints.swift */; };
+		141E2FD32698C239001B1CC0 /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141E2FD22698C239001B1CC0 /* Title.swift */; };
+		141E2FD5269A008F001B1CC0 /* bodyText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141E2FD4269A008F001B1CC0 /* bodyText.swift */; };
+		141E2FD7269A29AD001B1CC0 /* subTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141E2FD6269A29AD001B1CC0 /* subTitle.swift */; };
+		141E2FD9269A2EF6001B1CC0 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141E2FD8269A2EF6001B1CC0 /* ImageView.swift */; };
+		141E2FDB269E29A6001B1CC0 /* subtitle2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141E2FDA269E29A6001B1CC0 /* subtitle2.swift */; };
+		141E2FDD269E31DF001B1CC0 /* italicsSubtitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141E2FDC269E31DF001B1CC0 /* italicsSubtitle.swift */; };
+		141E2FDF269E5B04001B1CC0 /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141E2FDE269E5B03001B1CC0 /* DropDown.swift */; };
+		143E5B3826E3DFDE000E154D /* MessageBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143E5B3726E3DFDE000E154D /* MessageBoard.swift */; };
+		143E5B3A26E44BB1000E154D /* imageDownload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143E5B3926E44BB0000E154D /* imageDownload.swift */; };
+		143E5B3C26E45246000E154D /* JSONdecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143E5B3B26E45246000E154D /* JSONdecoder.swift */; };
+		143E5B3E26E45255000E154D /* JSONmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143E5B3D26E45255000E154D /* JSONmodel.swift */; };
+		143E5B4026E468A5000E154D /* mbView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143E5B3F26E468A5000E154D /* mbView.swift */; };
+		143E5B4426E55963000E154D /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143E5B4326E55963000E154D /* CustomShape.swift */; };
+		1480B2EA26F8E89300D38A8C /* AnnouncementDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1480B2E926F8E89300D38A8C /* AnnouncementDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +70,27 @@
 		141E2FA726953860001B1CC0 /* collegeInfoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = collegeInfoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		141E2FAB26953860001B1CC0 /* collegeInfoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collegeInfoUITests.swift; sourceTree = "<group>"; };
 		141E2FAD26953860001B1CC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		141E2FBF269544A2001B1CC0 /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
+		141E2FC326954D41001B1CC0 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		141E2FC526954D8D001B1CC0 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		141E2FC826955061001B1CC0 /* SecondScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreen.swift; sourceTree = "<group>"; };
+		141E2FCA269602FB001B1CC0 /* ImageOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageOverlay.swift; sourceTree = "<group>"; };
+		141E2FCC26976E0F001B1CC0 /* CoolBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolBox.swift; sourceTree = "<group>"; };
+		141E2FCF269896F1001B1CC0 /* bulletPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bulletPoints.swift; sourceTree = "<group>"; };
+		141E2FD22698C239001B1CC0 /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
+		141E2FD4269A008F001B1CC0 /* bodyText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bodyText.swift; sourceTree = "<group>"; };
+		141E2FD6269A29AD001B1CC0 /* subTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subTitle.swift; sourceTree = "<group>"; };
+		141E2FD8269A2EF6001B1CC0 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		141E2FDA269E29A6001B1CC0 /* subtitle2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subtitle2.swift; sourceTree = "<group>"; };
+		141E2FDC269E31DF001B1CC0 /* italicsSubtitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = italicsSubtitle.swift; sourceTree = "<group>"; };
+		141E2FDE269E5B03001B1CC0 /* DropDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDown.swift; sourceTree = "<group>"; };
+		143E5B3726E3DFDE000E154D /* MessageBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBoard.swift; sourceTree = "<group>"; };
+		143E5B3926E44BB0000E154D /* imageDownload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageDownload.swift; sourceTree = "<group>"; };
+		143E5B3B26E45246000E154D /* JSONdecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONdecoder.swift; sourceTree = "<group>"; };
+		143E5B3D26E45255000E154D /* JSONmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONmodel.swift; sourceTree = "<group>"; };
+		143E5B3F26E468A5000E154D /* mbView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mbView.swift; sourceTree = "<group>"; };
+		143E5B4326E55963000E154D /* CustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
+		1480B2E926F8E89300D38A8C /* AnnouncementDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +143,12 @@
 			children = (
 				141E2F892695385B001B1CC0 /* AppDelegate.swift */,
 				141E2F8B2695385B001B1CC0 /* SceneDelegate.swift */,
+				141E2FC826955061001B1CC0 /* SecondScreen.swift */,
 				141E2F8D2695385B001B1CC0 /* ContentView.swift */,
+				143E5B3726E3DFDE000E154D /* MessageBoard.swift */,
+				1480B2E926F8E89300D38A8C /* AnnouncementDetail.swift */,
+				141E2FBA269538C9001B1CC0 /* Views */,
+				141E2FBC26954350001B1CC0 /* Model */,
 				141E2F8F2695385F001B1CC0 /* Assets.xcassets */,
 				141E2F942695385F001B1CC0 /* LaunchScreen.storyboard */,
 				141E2F972695385F001B1CC0 /* Info.plist */,
@@ -134,6 +181,46 @@
 				141E2FAD26953860001B1CC0 /* Info.plist */,
 			);
 			path = collegeInfoUITests;
+			sourceTree = "<group>";
+		};
+		141E2FBA269538C9001B1CC0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				141E2FBF269544A2001B1CC0 /* RowView.swift */,
+				141E2FCC26976E0F001B1CC0 /* CoolBox.swift */,
+				143E5B4326E55963000E154D /* CustomShape.swift */,
+				141E2FCA269602FB001B1CC0 /* ImageOverlay.swift */,
+				141E2FDE269E5B03001B1CC0 /* DropDown.swift */,
+				143E5B3926E44BB0000E154D /* imageDownload.swift */,
+				143E5B3B26E45246000E154D /* JSONdecoder.swift */,
+				143E5B3F26E468A5000E154D /* mbView.swift */,
+				141E2FCE2698944E001B1CC0 /* Text Views */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		141E2FBC26954350001B1CC0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				141E2FC326954D41001B1CC0 /* DataModel.swift */,
+				143E5B3D26E45255000E154D /* JSONmodel.swift */,
+				141E2FC526954D8D001B1CC0 /* Item.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		141E2FCE2698944E001B1CC0 /* Text Views */ = {
+			isa = PBXGroup;
+			children = (
+				141E2FD22698C239001B1CC0 /* Title.swift */,
+				141E2FD6269A29AD001B1CC0 /* subTitle.swift */,
+				141E2FDA269E29A6001B1CC0 /* subtitle2.swift */,
+				141E2FD8269A2EF6001B1CC0 /* ImageView.swift */,
+				141E2FCF269896F1001B1CC0 /* bulletPoints.swift */,
+				141E2FD4269A008F001B1CC0 /* bodyText.swift */,
+				141E2FDC269E31DF001B1CC0 /* italicsSubtitle.swift */,
+			);
+			path = "Text Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,9 +353,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				141E2FC0269544A2001B1CC0 /* RowView.swift in Sources */,
+				141E2FD7269A29AD001B1CC0 /* subTitle.swift in Sources */,
 				141E2F8A2695385B001B1CC0 /* AppDelegate.swift in Sources */,
+				141E2FD32698C239001B1CC0 /* Title.swift in Sources */,
+				141E2FDF269E5B04001B1CC0 /* DropDown.swift in Sources */,
+				141E2FDB269E29A6001B1CC0 /* subtitle2.swift in Sources */,
+				141E2FDD269E31DF001B1CC0 /* italicsSubtitle.swift in Sources */,
+				141E2FCB269602FB001B1CC0 /* ImageOverlay.swift in Sources */,
+				141E2FC926955061001B1CC0 /* SecondScreen.swift in Sources */,
+				141E2FCD26976E0F001B1CC0 /* CoolBox.swift in Sources */,
 				141E2F8C2695385B001B1CC0 /* SceneDelegate.swift in Sources */,
+				141E2FD0269896F1001B1CC0 /* bulletPoints.swift in Sources */,
+				141E2FD5269A008F001B1CC0 /* bodyText.swift in Sources */,
 				141E2F8E2695385B001B1CC0 /* ContentView.swift in Sources */,
+				141E2FC626954D8D001B1CC0 /* Item.swift in Sources */,
+				143E5B4026E468A5000E154D /* mbView.swift in Sources */,
+				143E5B3E26E45255000E154D /* JSONmodel.swift in Sources */,
+				1480B2EA26F8E89300D38A8C /* AnnouncementDetail.swift in Sources */,
+				143E5B3A26E44BB1000E154D /* imageDownload.swift in Sources */,
+				143E5B3C26E45246000E154D /* JSONdecoder.swift in Sources */,
+				141E2FD9269A2EF6001B1CC0 /* ImageView.swift in Sources */,
+				143E5B4426E55963000E154D /* CustomShape.swift in Sources */,
+				143E5B3826E3DFDE000E154D /* MessageBoard.swift in Sources */,
+				141E2FC426954D42001B1CC0 /* DataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +546,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"collegeInfo/Preview Content\"";
+				DEVELOPMENT_TEAM = 4JSXD9USJU;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = collegeInfo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -458,6 +567,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"collegeInfo/Preview Content\"";
+				DEVELOPMENT_TEAM = 4JSXD9USJU;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = collegeInfo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
