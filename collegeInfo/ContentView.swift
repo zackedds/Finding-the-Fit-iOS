@@ -24,9 +24,13 @@ struct ContentView: View {
                             CoolBox(item: item)
                         }
                     }
-                }.navigationBarTitle("Finding the Fit")
-                    
-            }.tabItem {
+                }
+                
+                .navigationBarTitle("Finding the Fit")
+
+            }
+
+            .tabItem {
                 Image(systemName: "doc.text")
                 Text("Finding the Fit")
             }
@@ -39,6 +43,7 @@ struct ContentView: View {
             }
             
         }.edgesIgnoringSafeArea(.top)
+        
         
     }
     

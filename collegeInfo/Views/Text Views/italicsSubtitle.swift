@@ -18,6 +18,18 @@ struct italicsSubtitle: View {
 }
 }
 
+struct italicsSubtitle2: View {
+    var subtitleText: String
+    
+    var body: some View {
+        Text(subtitleText)
+            .font(.title3)
+            .italic()
+        Spacer()
+}
+}
+
+
 struct boldSubtitle: View {
     var subtitleText: String
     

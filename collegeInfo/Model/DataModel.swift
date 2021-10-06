@@ -39,25 +39,25 @@ struct DataModel {
 
                 ContentItem(contentType: .subheading, content: ["Team players and the roles each play:"]),
 
-                ContentItem(contentType: .italics, content: ["Your Counselor"]),
+                ContentItem(contentType: .bold2, content: ["Your Counselor"]),
 
                 ContentItem(contentType: .paragraph, content: ["Your counselor serves as your advocate during the college selection process.  You are highly encouraged to meet periodically with your counselor to discuss the progress you are having throughout the junior and into the senior year.  Your counselor will provide you with the opportunity to sit down to discuss college choices, the college application process, financial aid, and any other information regarding post-secondary planning."]),
 
                 ContentItem(contentType: .paragraph, content: ["Your counselor speaks on your behalf.  Many institutions require a counselor recommendation; therefore, it is vitally important for you to know your counselor and for your counselor to know you.  If the college admission office calls with questions regarding a particular aspect of your application folder, your transcript, or a leadership position, it is your counselor who will speak on your behalf, serving as your advocate.  That is why it is important for you to discuss different aspects of your application with your counselor.   Schedule visits with your counselor."]),
                 
-                ContentItem(contentType: .italics, content: ["Coordinator of College Counseling"]),
+                ContentItem(contentType: .bold2, content: ["Coordinator of College Counseling"]),
 
                 ContentItem(contentType: .paragraph, content: ["The coordinator of college counseling's role, particularly specific to you, is to be a resource for you.  Optional, student-initiated appointments are available with the coordinator of college counseling during regular school day hours to discuss the different types of colleges, character, personality, admission statistics, and any other information needed by you or your parents.  These appointments may be made during the second semester of your junior year or the first semester of your senior year.  To schedule an appointment, Dr. Boyle requires the student to pick-up and return a College Appointment Request and College Selection Planning Worksheet in the College Resource Center. The coordinator of college counseling’s office also provides evening programs ranging from selecting a college to financial aid; maintains files of college information; and orchestrates over 150 college representative visits throughout the fall."]),
 
                 ContentItem(contentType: .paragraph, content: ["In addition, Ron Gatchalian, Glenbrook North’s Transition Counselor, is available to meet with students (and parents) who will be seeking academic support services while at college. To schedule an appointment, students/parents should contact him in person, by phone or by email. Mr. Gatchalian also coordinates the “Disability Services and Support at College” program and is instrumental in the Choices Fair – A Regional Post-Secondary Planning Night for Students with Disabilities who are college bound."]),
 
-                ContentItem(contentType: .italics, content: ["The Admission Representative"]),
+                ContentItem(contentType: .bold2, content: ["The Admission Representative"]),
 
                 ContentItem(contentType: .paragraph, content: ["Many students believe the only role of the admission representative is to deny or admit the student into an institution.  Although this is one of the main responsibilities of the admission officer, it is not the only one! The admission officer seeks to help the student determine if that institution is a good fit.  As you research the different characteristics in a college (small vs. large, rural vs. urban, private vs. public, etc.), it is the college admission representative who will speak to and address those issues as they pertain to the college he/she is representing.  This will assist the student in determining whether or not that college is indeed what the student is looking for."]),
 
                 ContentItem(contentType: .paragraph, content: ["Another role of the admission representative is to represent you during the admission process.  The admission representative will serve as your advocate and speak on your behalf to the admission committee during the time that your file is evaluated.  You are encouraged to learn which admission representative is in charge of Glenbrook North applications.  The College Resource Center has this on file, and you are welcome to come down and ask for the appropriate contact person.  Names are also listed in Naviance if the college has visited Glenbrook North in the past."]),
 
-                ContentItem(contentType: .italics, content: ["Your Parents"]),
+                ContentItem(contentType: .bold2, content: ["Your Parents"]),
 
                 ContentItem(contentType: .paragraph, content: ["Although you may initially doubt it, your parents can serve a vital role in the college selection process.  No one knows you better than your parents.  Your parents bring a different perspective to the table.  It is important that you include your parents throughout the college selection process.  Sometimes parents need to be reminded that it is the student who is going to college and not them.  Families are encouraged to create an equal balance in terms of the initiative and activity that the student takes versus the initiative and activity that the parent takes.  You may have a sibling at college and your parents might have already gone through the process, but please be assured that you are a different person (and student), with different interests, different values, and different accomplishments.  Even though they've been through the process before, it is still the first time they are doing it with you!"]),
 
@@ -95,8 +95,6 @@ struct DataModel {
                 ContentItem(contentType: .paragraph, content: ["Each year a large number of Glenbrook graduates go to small liberal arts colleges all over the country.  Many college representatives come to GBN from these colleges each year."]),
 
                 ContentItem(contentType: .paragraph, content: ["Many small colleges have grouped together in associations or consortiums to share ideas, facilities, special programs, professors, and even students.  These associations provide greater options for students, financial savings for the colleges and greater sharing of ideas at many levels."]),
-
-                ContentItem(contentType: .subheading, content: ["ASSOCIATIONS"]),
                 
                 ContentItem(contentType: .boxedBullets, content: ["The Association of Colleges of the Midwest (ACM Colleges)", "Beloit (WI)",    "Grinnell (IA)",    "Macalester (MN)", "Carleton (MN)",    "Knox College (IL)",    "Monmouth (IL)", "Coe (IA)",    "Lake Forest (IL)",    "Ripon (WI)", "Colorado College (CO)",    "Lawrence (WI)",    "St. Olaf (MN)", "Cornell College (IA)",    "Luther (IA)"]),
 
@@ -121,28 +119,35 @@ struct DataModel {
                 
                 ContentItem(contentType: .boxedBullets, content: ["WESTERN UNIVERSITIES POPULAR WITH GBN STUDENTS \nSTATE UNIVERSITIES", "University of Arizona (AZ)", "Colorado State University (CO)", "University of Nevada (NV)", "Arizona State University (AZ)", "Ft. Lewis College (CO)", "University of Oklahoma (OK)", "Northern Arizona University (AZ)", "University of Northern Colorado (CO)", "University of Utah (UT)", "University of Colorado (CO)", "Montana State University (MT)", "University of Wyoming (WY)", "Colorado School of Mines (CO)", "University of Montana (MT) \nPRIVATE UNIVERSITIES", "Brigham Young University (UT)", "Colorado College (CO)", "University of Redlands (CA)", "Claremont Colleges (CA)", "Stanford University (CA)", "University of San Diego (CA)", "University of Denver (CO)", "University of Southern California"]),
                 
+                ContentItem(contentType: .bold2, content: ["EASTERN STATE UNIVERSITIES"]),
+
+                ContentItem(contentType: .paragraph, content: ["Some of the state universities in the east offer good opportunities for out-of-state students who have well-above-average records"]),
+
+                ContentItem(contentType: .bulletList, content: ["U. of Connecticut", "U. of Massachusetts", "U. of Vermont", "U. of Delaware", "U. of New Hampshire", "U. of Virginia", "U. of Maine", "U. of Rhode Island"]),
                 
-                ContentItem(contentType: .subheading, content: ["HIGHLY SELECTIVE COLLEGES"]),
+                ContentItem(contentType: .bold2, content: ["HIGHLY SELECTIVE COLLEGES"]),
                 
-                ContentItem(contentType: .paragraph, content: ["The Ivy League colleges are popular choices of our students."]),
+                ContentItem(contentType: .paragraph, content: ["Ivy League colleges"]),
                 
                 ContentItem(contentType: .boxedBullets, content: ["The Ivy League colleges are popular choices of our students.", "Brown (RI)", "Dartmouth (NH)", "Pennsylvania (PA)", "Columbia (NY)", "Harvard/Radcliffe (MA)", "Princeton (NJ)", "Cornell (NY)", "Yale (CT)"]),
                 
                 ContentItem(contentType: .paragraph, content: ["Since admission to these institutions is highly selective on a statistical basis as well as on personal qualities and talents, it is very difficult to predict admissions decisions.  Other well-known colleges in the east are also very selective and difficult to predict."]),
                 
+                ContentItem(contentType: .paragraph, content: ["Highly Selective Liberal Arts"]),
+                
                 ContentItem(contentType: .bulletList, content: ["Amherst (MA)", "Hamilton (NY)", "Trinity (CT)", "Bowdoin (ME)", "Haverford (PA)", "Tufts (MA)", "Brandeis (MA)", "Johns Hopkins (MD)", "Washington & Lee (VA)", "Bucknell (PA)", "M.I.T. (MA)", "Wesleyan (CT)", "Colgate (NY)", "Middlebury (VT)", "William & Mary (VA)", "Duke (NC)", "St. Lawrence (NY)", "Williams (MA)", "University of Virginia (VA)"]),
 
                 ContentItem(contentType: .paragraph, content: ["Because of the strong competition for admission to these colleges, students must be covered by applications to less selective colleges.  The \"Little Three,\" Amherst, Williams, and Wesleyan, are very competitive; Swarthmore, Bowdoin, Tufts, Brandeis, Johns Hopkins, M.I.T., and Georgetown are among the tightest in admissions in the country.  The College of William and Mary is a state university (VA) and very competitive for out-of-state students."]),
 
-                ContentItem(contentType: .paragraph, content: ["Some of the following colleges that Glenbrook students have attended that are very selective are:"]),
+                ContentItem(contentType: .paragraph, content: ["Very Selective"]),
 
                 ContentItem(contentType: .bulletList, content: ["Bates (ME)", "Hampshire (MA)", "Skidmore (NY)", "Bennington (VT)", "Hobart/Wm. Smith (NY)", "Union (NY)", "Boston College (MA)", "Ithaca (NY)", "University of Maryland (MD)", "Carnegie Mellon (PA)", "Lafayette (PA)", "University of Richmond (VA)", "Colby (MA)", "Lehigh (PA)", "University of Rochester (NY)", "Connecticut College (CN)", "Rensselaer Polytechnic Institute (NY)", "University of Vermont (VT)", "Dickinson (PA)", "Sarah Lawrence (NY)", "George Washington Univ. (DC)", "Vassar (NY)"]),
 
-                ContentItem(contentType: .paragraph, content: ["Colleges and universities that may be considered \"selective\" because of somewhat more flexible admissions are:"]),
+                ContentItem(contentType: .paragraph, content: ["Selective"]),
 
                 ContentItem(contentType: .bulletList, content: ["American University (DC)", "Elmira College (MA)", "Northeastern U. (MA)", "Catholic University (DC)", "Emerson College (MA)", "Syracuse U. (NY)", "Clark University (MA)", "Fairfield University (CN)", "Temple U. (PA)", "College of The Holy Cross (MA)", "Fairleigh Dickinson (NJ)", "University of Bridgeport (CT)", "Drew University (NJ)", "Hartwick College (NY)", "Villanova U. (PA)"]),
 
-                ContentItem(contentType: .subheading, content: ["WOMEN'S COLLEGES"]),
+                ContentItem(contentType: .bold2, content: ["WOMEN'S COLLEGES"]),
 
                 ContentItem(contentType: .paragraph, content: ["These are all highly competitive in admissions, so other applications must be made."]),
 
@@ -156,13 +161,8 @@ struct DataModel {
 
                 ContentItem(contentType: .bulletList, content: ["Beaver (PA)", "Colby-Sawyer (NH)", "Russell Sage (NY)", "Chatham (PA)", "Hood (MD)"]),
 
-                ContentItem(contentType: .subheading, content: ["STATE UNIVERSITIES"]),
 
-                ContentItem(contentType: .paragraph, content: ["Some of the state universities in the east offer good opportunities for out-of-state students who have well-above-average records"]),
-
-                ContentItem(contentType: .bulletList, content: ["U. of Connecticut", "U. of Massachusetts", "U. of Vermont", "U. of Delaware", "U. of New Hampshire", "U. of Virginia", "U. of Maine", "U. of Rhode Island"]),
-
-                ContentItem(contentType: .subheading, content: ["INNOVATIVE AND EXPERIMENTAL COLLEGES"]),
+                ContentItem(contentType: .bold2, content: ["INNOVATIVE AND EXPERIMENTAL COLLEGES"]),
 
                 ContentItem(contentType: .paragraph, content: ["Admission to these colleges is related more to human qualities and maturity than statistics and class rank/test scores, but intellectual curiosity and purpose are essential if one is to profit from these campus environments."]),
                 
@@ -462,7 +462,7 @@ struct DataModel {
 
                 ContentItem(contentType: .bold, content: ["FORMULA"]),
 
-                ContentItem(contentType: .bold2, content: ["Cost of Attendance (set by college) \n- Expected Family Contribution (determined through FAFSA) \n___________________________ \n= Financial Need"]),
+                ContentItem(contentType: .bold2, content: ["Cost of Attendance (set by college) \n- Expected Family Contribution (determined through FAFSA) \n________________________ \n= Financial Need"]),
 
                 ContentItem(contentType: .paragraph, content: ["Once the EFC has been determined, colleges will put together a financial aid package that will include sources of aid to help fund your education."]),
 
@@ -500,7 +500,7 @@ struct DataModel {
 
                 ContentItem(contentType: .subheading, content: ["Types of Need-Based Aid"]),
                 
-                ContentItem(contentType: .italics, content: ["Loan Program"]),
+                ContentItem(contentType: .italics2, content: ["Loan Program"]),
 
                 ContentItem(contentType: .paragraph, content: ["All federal student loans come directly from the U.S. Department of Education (ED) under the William D. Ford Federal Direct Loan Program (Federal Direct Loans). Direct Stafford Loans enable eligible students to borrow low-interest loans directly from the U.S. Department of Education.  There is a minimal percentage loan fee on all Direct Subsidized Loans and Direct Unsubsidized Loans. The loan fee will be proportionately deducted from each loan disbursement. Funds are sent directly to the institution.  Several repayment plans are available."]),
 
@@ -530,19 +530,21 @@ struct DataModel {
 
                 ContentItem(contentType: .subheading, content: ["Types of Non-Need Based Aid"]),
                 
-                ContentItem(contentType: .italics, content: ["Federal PLUS Loan Program"]),
+                ContentItem(contentType: .italics2, content: ["Federal PLUS Loan Program"]),
 
                 ContentItem(contentType: .paragraph, content: ["The PLUS Loan Program is available to parents of undergraduate students.  The loan is not based on need and the amount borrowed (not to exceed cost of attendance) by parents is subject to credit approval. The loan is acquired through the school. The interest rate for loans first disbursed between July 1, 2018 and June 30, 2019 is fixed at 7.00% and is charged from the date of the first disbursement until the loan is paid in full. The loan origination fee is 4.248%. Payment is due 60 days after the final disbursement of the loan.  Under certain circumstances, a borrower can receive a deferment or forbearance to temporarily stop or lower the payments on a loan."]),
 
                 ContentItem(contentType: .heading, content: ["Financial Aid:  The Process"]),
                 
-                ContentItem(contentType: .italics, content: ["Financial Aid Forms"]),
+                ContentItem(contentType: .italics2, content: ["Financial Aid Forms"]),
 
                 ContentItem(contentType: .paragraph, content: ["The Expected Family Contribution is calculated through information the family provides on the FAFSA - the Free Application for Federal Student Aid.  All federal and state aid programs utilize this form to determine eligibility.  The FAFSA is required by all colleges that award federal and state funds and must be submitted after October 1 of the student’s senior year."]),
 
-                ContentItem(contentType: .linkInText, content: ["For the high school graduating Class of 2021, the FAFSA will be available on October 1, 2020.  Families will complete this online federal form using 2019 income tax information.  This new schedule, referred to as Prior-Prior Tax Information, has just been adopted last year by the current federal administration.  The form can be found at: ", "www.fafsa.gov", "http://www.fafsa.gov", ""]),
+                ContentItem(contentType: .paragraph, content: ["For the high school graduating Class of 2021, the FAFSA will be available on October 1, 2020.  Families will complete this online federal form using 2019 income tax information.  This new schedule, referred to as Prior-Prior Tax Information, has just been adopted last year by the current federal administration."]),
                 
-                //ContentItem(contentType: .link, content: ["www.fafsa.gov", "http://www.fafsa.gov"]),
+                    //The form can be found at: ", "www.fafsa.gov", "http://www.fafsa.gov", ""
+                    
+                ContentItem(contentType: .link, content: ["www.fafsa.gov", "http://www.fafsa.gov"]),
 
                 ContentItem(contentType: .paragraph, content: ["Private schools and a few public schools may require additional information that is not provided on the FAFSA.  Therefore, colleges may require the student to fill out the CSS PROFILE (which charges a fee per school) developed by the College Scholarship Service, a division of the College Board.  Not all private schools require this form.  You are encouraged to call the Admission Office of each private school to which you are applying to verify if the CSS PROFILE is required."]),
 
@@ -656,19 +658,19 @@ struct DataModel {
 
                 ContentItem(contentType: .subheading, content: ["Questions to Ask"]),
 
-                ContentItem(contentType: .italics, content: ["Campus Environment"]),
+                ContentItem(contentType: .italics2, content: ["Campus Environment"]),
 
                 ContentItem(contentType: .numberList, content: ["How would you describe the character/personality of your students?  (Don’t let them get away with the answer of, “we have many different types of students.”)", "How would you describe the character/personality of your faculty members?", "How politically active are your students?", "Can you talk about your school spirit?", "Talk about the importance of diversity on campus.", "What are some examples of displayed tolerance?", "How many students are from in-state?  Out-of-state?", "Besides clubs and organizational involvement, what do the students do for fun?", "What role does student government have on campus?", "What is the hot topic or issue on campus?", "Fraternities?  Sororities?  When does a student rush and pledge?", "What is the religious representation on campus?", "What religious organizations are on campus?", "What new facilities are on campus?"]),
                 
-                ContentItem(contentType: .italics, content: ["Academic/Curriculum"]),
+                ContentItem(contentType: .italics2, content: ["Academic/Curriculum"]),
                  
                 ContentItem(contentType: .bulletList, content: ["How much flexibility does a student have in his/her curriculum?", "Does the school have a core curriculum?", "Does the school have a freshman seminar?", "How does a student explore different majors?  Double major?", "How are academic advisors assigned?", "What types of study abroad opportunities exist?", "How are teaching assistants and/or graduate students used in undergraduate courses?", "How does a student arrange for an internship?", "What opportunities are there for undergraduate research?", "Who could I speak to in the department about research?"]),
 
-                ContentItem(contentType: .italics, content: ["Housing and Meals"]),
+                ContentItem(contentType: .italics2, content: ["Housing and Meals"]),
 
                 ContentItem(contentType: .bulletList, content: ["Do all freshmen live in the same residence hall/dormitory?", "When does one choose a residence hall?", "How many freshman change roommates?", "Do the residence halls have computer labs?", "What hours are the computer labs open?", "Does the school provide vegetarian dining options?", "Does the school provide kosher dining options?"]),
 
-                ContentItem(contentType: .italics, content: ["Financial Aid"]),
+                ContentItem(contentType: .italics2, content: ["Financial Aid"]),
 
                 ContentItem(contentType: .paragraph, content: ["What is the total budgeted tuition cost of the school?", "Are there merit scholarships available?", "What type of student receives these awards?", "Are there campus jobs available with financial aid?", "Are there campus jobs available without financial aid?", "Are you need-blind in admission decisions?", "Do you meet 100% need?", "If you don’t meet 100% need, how is the amount you will meet determined?"]),
 
@@ -684,7 +686,7 @@ struct DataModel {
 
                 ContentItem(contentType: .heading, content: ["Other Opportunities to Visit with College Representatives"]),
 
-                ContentItem(contentType: .italics, content: ["College Representative Visits to Glenbrook North"]),
+                ContentItem(contentType: .italics2, content: ["College Representative Visits to Glenbrook North"]),
 
                 ContentItem(contentType: .paragraph, content: ["Although visiting a college campus is probably the most effective experience in learning about a college, there are other methods that you can take advantage of as well.  During the fall semester, over 150 colleges and universities visit Glenbrook North High School. These college representative visits provide a great opportunity for you to learn what colleges have to offer within our own building. It is an opportunity for you to learn about a college that you have not visited, or to ask some follow-up questions of a representative from a college you already have visited. These visits are either question and answer sessions or more formal presentations. It depends upon the number of students present. Seniors and juniors are invited to attend."]),
 
@@ -706,54 +708,14 @@ struct DataModel {
 
                 ContentItem(contentType: .linkInText, content: ["Throughout the year various consortiums or conferences will host area college fairs.  Look for these opportunities to take place in the Chicagoland area.  One example of these is a college fair that takes place typically in early fall and includes approximately 30 small liberal arts colleges (see ", "www.CTCL.org", "http://www.CTCL.org", ").  This fair provides a wonderful opportunity for students and parents to learn about small liberal arts colleges, as well as to compare similarities and differences among the schools in attendance.  Look for other similar programs as well."]),
 
-                //ContentItem(contentType: .link, content: ["www.CTCL.org","http://www.CTCL.org"]),
+                ContentItem(contentType: .link, content: ["www.CTCL.org","http://www.CTCL.org"]),
                 
                 ContentItem(contentType: .paragraph, content: ["The Glenbrook High School District sponsors a college fair for the community.  This fair is comprised of approximately 225 colleges and universities from around the country.   The Glenbrook College Fair provides a wonderful opportunity for you to gather information and talk with college representatives from schools you may already be familiar with, as well as schools you have not heard of.  Character and personality of campus, major programs, housing, costs, campus visits, and general admission information are topics that can be discussed."]),
 
                 ContentItem(contentType: .paragraph, content: ["A list of colleges and universities that participated in the 2019 Glenbrook College Fair can be found in the Appendix.  This year’s college fair will be held at Glenbrook North High School on Thursday, April 2, 2020. A list of participating colleges will be made available via the internet in March 2020."]),
              ]),
         
-//        Item(title: "Completing College Applications",
-//             TOCimageName: "doge",
-//             content: [
-//                ContentItem(contentType: .bold, content: ["Points to Ponder:"]),
-//
-//                ContentItem(contentType: .paragraph, content: ["Be sure you keep track of your user name and passwords.", "GBN SCHOOL (CEEB/ACT) CODE: 143-215", "If you are applying to a college/university with a January (1st or 15th) deadline and forms/letters need to be completed by your counselor, materials must to be turned in to your counselor by December 1st.", "When you hear from the college, please let your counselor know of the college’s decision.", "RELAX AND TRY TO ENJOY THE PROCESS OF APPLYING TO COLLEGE!"]),
-//
-//                ContentItem(contentType: .bold2, content: ["GBN SCHOOL (CEEB/ACT) CODE: 143-215"]),
-//
-//                ContentItem(contentType: .heading, content: ["Process of Application"]),
-//
-//                ContentItem(contentType: .paragraph, content: ["1.  Once you have submitted the application, completed your transcript and ACT/SAT submission request, met with your counselor and teachers for letters of recommendation (if needed), the materials will arrive at the admission office at the college to which you have applied."]),
-//
-//                ContentItem(contentType: .paragraph, content: ["2.  You should follow up with the colleges to verify receipt of application materials, ACT/SAT test scores, and transcripts. Most colleges provide students with the opportunity to check for this online via their website."]),
-//
-//                ContentItem(contentType: .paragraph, content: ["The college application season can become hectic for all involved: for the student trying to complete each application, for the high school trying to process the applications and transcript requests, and for the college admission office receiving, collating, recording, and reviewing the application."]),
-//
-//                ContentItem(contentType: .paragraph, content: ["As you can imagine, it does get busy.  As the busy college application season is fully under way in the high school, it is only beginning for the college admission and records offices. For them, our submitting college materials (transcripts and letters of recommendations) creates quite a traffic jam for file recording, data entry and matching."]),
-//
-//                ContentItem(contentType: .paragraph, content: ["This electronic traffic jam might cause correspondence indicating missing information in your application file (transcript, letter of recommendation, etc.). Most of this correspondence is generated electronically, and, as a result, may be generated prematurely. With applications, transcripts, ACT/SATs, essays, recommendations, credit checks, application fees, etc., applying to a college can mean as many as 10 different items that need to be entered and/or matched into a computer (now think of the many applications the college is receiving!). Some data entry systems even require multiple persons to enter the data, therefore, more than one person is required to work with an application file. This takes time, especially given the amount of applications that colleges receive!"]),
-//
-//                ContentItem(contentType: .paragraph, content: ["On several occasions students, parents and the Student Services Department have followed up on such correspondence only to learn that the admission office had, in fact, received the transcript, letter of recommendation, etc., but had not yet entered it into the computer because of an \"overwhelming amount of information\" that still needed to be recorded."]),
-//
-//                ContentItem(contentType: .bold2, content: ["If you receive such correspondence or if you are electing to call on your own, here are a few suggestions to follow:"]),
-//
-//                ContentItem(contentType: .numberList, content: ["Ask to speak with the admission officer responsible for Glenbrook North.", "Get an indication of how backlogged they are.", "Ask whether they haven't received the information OR if they haven't downloaded/ recorded the information (there is a difference).", "4)   Please be patient. Realizing that such correspondence can create a little anxiety, rest assured, it will all work out in the end."]),
-//
-//                ContentItem(contentType: .heading, content: ["Tips for Completing Your Application(s)"]),
-//
-//                ContentItem(contentType: .bulletList, content: ["Keep track of (and confidential) your login I.D. and passwords for applications.", "Plan enough time to complete applications.  A rushed application is very evident.  Take your time to fill out college applications and don’t wait until the last minute.  This is your opportunity to express in writing who you are. Don’t rush it!", "Watch deadline dates!", "Application extras – BE CAREFUL!  If they don’t request it, they may not want it!  Call them!", "Gimmicks – Once again, BE CAREFUL!  Is it you?  Or is it you trying to stand out?  You want to make an impression with your application as it tells them about you.  You want to stand out but not obtrusively.", "Make optional essays mandatory, if you are on the bubble for admission.  This will show the college that you are interested and have taken the time to complete the application in its entirety.", "Extra-Curriculars:  Quality not Quantity.  Colleges are looking for commitment, growth, and contribution.  What has the organization gained from your involvement?  What have you learned from your involvement?", "Take pride in your application. IT REPRESENTS YOU!", "ENJOY!"]),
-//
-//                ContentItem(contentType: .bold2, content: ["Additional Tips while Applying On-Line"]),
-//
-//                ContentItem(contentType: .subheading, content: ["Suggested web sites"]),
-//
-//                ContentItem(contentType: .bold2, content: ["Common Application"]),
-//
-//                ContentItem(contentType: .link, content: ["www.commonapp.org"]),
-//
-//                ContentItem(contentType: .paragraph, content: ["Approximately 800 colleges and universities use the Common Application."])
-//             ]),
+
         
         Item(title: "Completing College Applications",
              TOCimageName: "completing-college-applications",
@@ -801,12 +763,10 @@ struct DataModel {
                 ContentItem(contentType: .heading, content: ["Tips for Completing Your Application(s)"]),
 
                 ContentItem(contentType: .bold2, content: ["• Keep track of (and confidential) your login I.D. and passwords for applications."]),
-
-                ContentItem(contentType: .paragraph, content: ["• Plan enough time to complete applications."]),
                 
-                ContentItem(contentType: .paragraph, content: ["A rushed application is very evident. Take your time to fill out college applications and don’t wait until the last minute. This is your opportunity to express in writing who you are. Don’t rush it!"]),
-
                 ContentItem(contentType: .bold2, content: ["Watch deadline dates!"]),
+                
+                ContentItem(contentType: .paragraph, content: ["Plan enough time to complete applications. A rushed application is very evident. Take your time to fill out college applications and don’t wait until the last minute. This is your opportunity to express in writing who you are. Don’t rush it! Take your time. GO SLOWLY (It is not a video game!)."]),
 
                 ContentItem(contentType: .bold2, content: ["Application extras – BE CAREFUL!  If they don’t request it, they may not want it!  Call them!"]),
 
@@ -826,7 +786,7 @@ struct DataModel {
 
                 ContentItem(contentType: .bold2, content: ["ENJOY!"]),
                 
-                ContentItem(contentType: .boxedBullets, content: ["Additional Tips while Applying On-Line", "Take your time. GO SLOWLY (It is not a video game!).", "Write your essays on a word processor and then copy and paste them into the application.", "Make sure you are filling out the correct information in the correct space.", "Save when appropriate.", "Follow instructions for signature and application fee (if required)."]),
+                ContentItem(contentType: .boxedBullets, content: ["Additional Tips while Applying On-Line", "Make sure you are filling out the correct information in the correct space.", "Save when appropriate.", "Follow instructions for signature and application fee (if required)."]),
 
                 ContentItem(contentType: .subheading, content: ["Suggested web sites"]),
 
@@ -985,7 +945,7 @@ struct DataModel {
                 
                 ContentItem(contentType: .subheading, content: ["Questions to ask:"]),
 
-                ContentItem(contentType: .linkInText, content: ["(Also see p. 42 in the Choices 2018 booklet available at ", "Post Secondary Choices", "https://www.postsecondarychoices.org", ")"]),
+                //ContentItem(contentType: .linkInText, content: ["(Also see p. 42 in the Choices 2018 booklet available at ", "Post Secondary Choices", "https://www.postsecondarychoices.org", ")"]),
 
                 ContentItem(contentType: .numberList, content: ["Is there additional information in the admissions process for students with disabilities?", "What documentation is required?", "Describe the range of accommodations available to students with disabilities.", "Are accommodation determinations based on the high school IEP recommendations?", "Is there a separate fee for enhanced disability services?", "What is the training of the people who offer the services?", "How many students with (LD, ADD, and ED, Autism, other disabilities) do you serve?", "How many learning specialists are there who give direct service to students?", "What is your retention rate for freshmen?  For freshmen with disabilities?", "What is your graduation rate for all students?  For students with disabilities?", "How are testing accommodations handled?", "What services do you offer?", "How do students access tutoring services and who provides them?", "Is there an additional fee for any services?", "Do you offer study skills and/or learning strategies courses?  Are they offered for credit?", "What is the climate on your campus for students with disabilities?", "How long have these support programs or services been available?", "Are support services or the program funded through the college or through government grants?"]),
 
@@ -997,7 +957,7 @@ struct DataModel {
 
                 ContentItem(contentType: .heading, content: ["College Testing"]),
 
-                ContentItem(contentType: .bold2, content: ["“The ACT does not measure intelligence and it does not predict your ultimate success or failure as a human being.  No matter how high or how low your score on this test initially – and no matter how much you may increase your score through preparation – you should never consider the score you receive on this or any other test a final judgment of your abilities.”"]),
+                ContentItem(contentType: .paragraph, content: ["“The ACT does not measure intelligence and it does not predict your ultimate success or failure as a human being.  No matter how high or how low your score on this test initially – and no matter how much you may increase your score through preparation – you should never consider the score you receive on this or any other test a final judgment of your abilities.”"]),
 
                 ContentItem(contentType: .paragraph, content: ["-Cracking the ACT, The Princeton Review"]),
 
@@ -1184,6 +1144,7 @@ struct DataModel {
                     ContentItem(contentType: .heading, content: ["Heading"]),
                     ContentItem(contentType: .subheading, content: ["Subheading"]),
                     ContentItem(contentType: .italics, content: ["Italics"]),
+                    ContentItem(contentType: .italics2, content: ["Italics2"]),
                     ContentItem(contentType: .bold, content: ["Bold"]),
                     ContentItem(contentType: .bold2, content: ["Bold2"]),
                     ContentItem(contentType: .paragraph, content: ["Paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph"]),
@@ -1230,6 +1191,7 @@ enum ContentType {
     case boxedNums
     case image
     case italics
+    case italics2
     case bold
     case bold2
     case link

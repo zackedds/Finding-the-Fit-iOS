@@ -53,6 +53,8 @@ struct NewSecondScreen: View {
                     boxedText(list: contentItem.content)
                 } else if contentItem.contentType == .italics {
                     italicsSubtitle(subtitleText: text)
+                } else if contentItem.contentType == .italics2 {
+                    italicsSubtitle2(subtitleText: text)
                 } else if contentItem.contentType == .bold {
                     boldSubtitle(subtitleText: text)
                 } else if contentItem.contentType == .bold2 {

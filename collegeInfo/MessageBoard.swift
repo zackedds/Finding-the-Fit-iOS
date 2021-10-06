@@ -12,9 +12,10 @@ struct MessageBoard: View {
     
     @ObservedObject var fetch = FetchToDo()
         var body: some View {
+            
             VStack {
-                
                 NavigationView {
+                    
                     List(fetch.todos) { todo in
                         ZStack{
                             NavigationLink(destination: AnnouncementDetail(mb: todo)){
@@ -26,7 +27,9 @@ struct MessageBoard: View {
                         }
                       //  mbView(mb: todo)
 
-                }.navigationBarTitle("Announcements")
+                }
+                    
+                    .navigationBarTitle("Announcements")
             }
         }.edgesIgnoringSafeArea(.top)
     }
